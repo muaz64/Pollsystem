@@ -144,3 +144,9 @@ button:hover{
     font-weight: bold;
     color: #ff1427;
 }
+.total-votes {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
