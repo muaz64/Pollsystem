@@ -34,6 +34,14 @@ function displayResult(){
     const result = document.getElementById('result');
     result.innerHTML = "";
 
+    // Display total votes
+    const totalVotes = getTotalVotes();
+    const totalVotesText = document.createElement("div");
+    totalVotesText.className = "total-votes";
+    totalVotesText.textContent = `Total Votes: ${totalVotes}`;
+    result.appendChild(totalVotesText);
+    
+
     options.forEach((option)=>{
         const percentage = ((option.votes/ getTotalVotes()) * 100).toFixed(2) || 0;
         const barWidth = percentage > 0 ? percentage + "%" : "0%";
