@@ -4,7 +4,7 @@ Here’s a `README.md` file for the Poll System project:
 
 A dynamic poll system built using **HTML**, **CSS**, and **JavaScript**. This application allows users to vote on a specific topic and view real-time poll results.
 
-![Poll System Screenshot](./image.png)
+![Poll System Screenshot](./Pollsystem.png)
 
 ## Features
 
