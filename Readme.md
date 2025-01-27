@@ -1,4 +1,4 @@
-Here’s a `README.md` file for the Poll System project:
+
 
 # Poll System
 
